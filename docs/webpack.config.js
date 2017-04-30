@@ -16,7 +16,14 @@ const buildModule = {
 };
 
 const plugins = [];
-if (isProd) plugins.push(new UglifyJSPlugin());
+if (isProd) {
+  plugins.push(new UglifyJSPlugin());
+  plugins.push(new webpack.DefinePlugin({
+    'process.env': {
+      NODE_ENV: JSON.stringify('production')
+    }
+  }));
+}
 
 
 module.exports = {

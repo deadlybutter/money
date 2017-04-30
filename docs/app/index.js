@@ -8,7 +8,7 @@ import Markdown from './components/Markdown';
 import data from './data';
 window.data = data;
 
-fetch('/content/markup.md')
+fetch('./content/markup.md')
   .then((res) => res.text())
   .then((text) => {
     render((
