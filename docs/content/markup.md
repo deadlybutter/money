@@ -66,4 +66,4 @@ I've put all of them in a table below in chronological order, and there are a fe
 
 I take full blame for being too lazy to spot this earlier, but Citibank what the fuck is your fraud protection doing?
 
-Anyway, that was a fun experiment. Maybe I change banks after this, but if you're curious how I did it, check out the source code on Github!
+Anyway, that was a fun experiment. Maybe I change banks after this, but if you're curious how I did it, check out the source code on [Github](https://github.com/deadlybutter/money)! And feel free to follow me on [Twitter](https://twitter.com/itsjoekent).
