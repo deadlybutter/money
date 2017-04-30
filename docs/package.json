@@ -1,0 +1,29 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "marksy": "^0.3.0",
+    "radium": "^0.18.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "uglify-js": "^2.8.22",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}

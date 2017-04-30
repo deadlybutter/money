@@ -2,8 +2,6 @@ const fs = require('fs');
 const csvtojson = require('csvtojson');
 const json2csv = require('json2csv');
 
-const fields = ['date', 'id', 'groupId', 'title', 'amount', 'display'];
-
 function parseCsv(file) {
   const data = [];
   return new Promise((resolve) =>
@@ -26,10 +24,8 @@ function formatData(source) {
 }
 
 function writeData(data) {
-  const csv = json2csv({ data, fields });
-
   return new Promise((resolve) => {
-    fs.writeFile('./polished/data.csv', csv, resolve);
+    fs.writeFile('./polished/data.json', JSON.stringify(data), resolve);
   });
 }
 

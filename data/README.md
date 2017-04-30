@@ -35,4 +35,4 @@ Then drop your edited file back into the raw folder as `transactions-data.csv`. 
 $ node fill.js
 ```
 
-Your final csv is again `polished/data.csv`.
+Your final csv is again `polished/data.json`.

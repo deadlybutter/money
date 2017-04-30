@@ -1,3 +1,5 @@
-format/raw/*
-!format/raw/transactions-data.csv
-format/node_modules
+data/raw/*
+!data/raw/transactions-data.csv
+data/node_modules
+
+docs/node_modules
