@@ -27,25 +27,13 @@ The others represent me fairly well however,
 
 Uber sits not far behind at #12 (_waiting for Lyft to get popular on Staten Island_), but there is something interesting at #13, _Fraud?_.
 
-No, my banking statement didn't say the words fraud on it, but in doing this experiment I noticed a few highly unusual payments happening pretty consistently. We'll come back to that in a second, as I first wanted to explore how frequently I was making payments relative to there amount. Before I was frustrated with knowing I had a fraudulent charge problem, I was frustrated in not knowing what subscriptions I was dealing with.
-
-<ScatterChart />
-
-From this you can see quite a lot about my spending habits. For example, some of my most common subscriptions (eg: Incident Page) are relatively nothing in comparison to how much I spend on Amazon.
-
-What this chart doesn't represent however is the patterns in which I'm spending. So lets revisit the initial transactions chart, but sort the transactions by date & color them by type.
-
-<TransactionsChart sort="true" />
-
-`(Click to toggle highlight, double click to reset chart)`
-
-When you view the data this way, you can start to examine the actual patterns of my spending. Subscriptions tend to follow a wave of consistently, whereas frequent lunch spots are common but sporadic. You can even start to spot changes in behavior, for example I still goto Eisenberg's often, but I tend to use cash over card.
-
-You can also spot the cluster of fraudulent transactions!
+No, my banking statement didn't say the words fraud on it, but in doing this experiment I noticed a few highly unusual payments happening pretty consistently.
 
 <TransactionsChart sort="true" defaultHighlight="e983380f-1e31-47dc-8713-3b13659de1d2" />
 
-I've put all of them in a table below in chronological order, and there are a few things worth pointing out.
+> (The chart is also interactive - Click to toggle the highlighted items, double click to reset chart)
+
+I've put all of fraudulent transactions in a table below in chronological order, and there are a few things worth pointing out.
 
 | Date      | Transaction name                           | $$  |
 | --------- |:------------------------------------------:| ---:|

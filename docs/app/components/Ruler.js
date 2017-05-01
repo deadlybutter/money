@@ -19,7 +19,7 @@ class Ruler extends React.Component {
 
   componentDidMount() {
     this.measure();
-    window.onresize = this.measure;
+    addResizeListener(this.measure);
   }
 
   render() {

@@ -21,14 +21,14 @@ const Markdown = ({ text }) => {
       BarChart (props) {
         return (
           <Ruler>
-            <BarChart />
+            <BarChart {...props} />
           </Ruler>
         );
       },
       ScatterChart (props) {
         return (
           <Ruler>
-            <ScatterChart />
+            <ScatterChart {...props} />
           </Ruler>
         );
       },

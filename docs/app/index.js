@@ -8,6 +8,16 @@ import Markdown from './components/Markdown';
 import data from './data';
 window.data = data;
 
+const resizeListeners = [];
+
+window.addResizeListener = (listener) => {
+  resizeListeners.push(listener);
+}
+
+window.onresize = () => {
+  for (const listener of resizeListeners) listener();
+}
+
 fetch('./content/markup.md')
   .then((res) => res.text())
   .then((text) => {
